@@ -12,8 +12,7 @@ public class StopwatchScript : MonoBehaviour
 
     bool timerStart;
 
-    [SerializeField]
-    Text stopwatchText;
+    public Text stopwatchText;
 
     [SerializeField]
     Text editStopwatchText;
