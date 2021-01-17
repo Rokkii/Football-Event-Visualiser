@@ -26,6 +26,9 @@ public class StopwatchScript : MonoBehaviour
     [SerializeField]
     GameObject editTimerWindow;
 
+    [SerializeField]
+    GameObject matchWindow;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -77,6 +80,7 @@ public class StopwatchScript : MonoBehaviour
     {
         timerStart = false;
         editTimerWindow.SetActive(true);
+        matchWindow.SetActive(false);
         startButton.SetActive(true);
         stopButton.SetActive(false);
     }
@@ -84,6 +88,7 @@ public class StopwatchScript : MonoBehaviour
     public void CloseTimerEditor()
     {
         editTimerWindow.SetActive(false);
+        matchWindow.SetActive(true);
     }
 
     public void ChangeTime(float timeMod)

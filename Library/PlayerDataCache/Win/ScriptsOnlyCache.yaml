@@ -53,29 +53,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11474}
     - Class: 114
-      Script: {instanceID: 11864}
+      Script: {instanceID: 11530}
     - Class: 114
-      Script: {instanceID: 11892}
+      Script: {instanceID: 11866}
     - Class: 114
-      Script: {instanceID: 12018}
+      Script: {instanceID: 11894}
     - Class: 114
-      Script: {instanceID: 12262}
+      Script: {instanceID: 12020}
     - Class: 114
-      Script: {instanceID: 12488}
+      Script: {instanceID: 12264}
     - Class: 114
-      Script: {instanceID: 12504}
+      Script: {instanceID: 12490}
     - Class: 114
-      Script: {instanceID: 12766}
+      Script: {instanceID: 12506}
     - Class: 114
-      Script: {instanceID: 12794}
+      Script: {instanceID: 12768}
     - Class: 114
-      Script: {instanceID: 12934}
+      Script: {instanceID: 12796}
     - Class: 114
-      Script: {instanceID: 13044}
+      Script: {instanceID: 12936}
     - Class: 114
-      Script: {instanceID: 13144}
+      Script: {instanceID: 13046}
     - Class: 114
-      Script: {instanceID: 19276}
+      Script: {instanceID: 13146}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -195,6 +195,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: e4a2b3802d0653e9cc8fa6f4497a347a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GenerateTextFile
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -551,7 +557,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: bb0138f1cdc6a74d22f989a20928675f
+      Hash: cfa5fe0350edaab9d029a1bc96913e13
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: StopwatchScript
@@ -729,12 +735,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: e4a2b3802d0653e9cc8fa6f4497a347a
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GenerateTextFile
   platform: 5
   scenePathNames:
   - Assets/Scenes/TestScene.unity
