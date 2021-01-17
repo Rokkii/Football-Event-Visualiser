@@ -27,12 +27,12 @@ public class MatchEventTrigger : MonoBehaviour
     [SerializeField]
     GameObject viewEventsList;
 
-    /*
-    public string[] eventArray;
-    int i = 0;
-    */
+    private string finalEventsList = "";
 
-    List<string> eventList = new List<string>();
+    [SerializeField]
+    Text listOfEvents;
+
+    public List<string> eventList = new List<string>();
 
     void Start()
     {
@@ -43,8 +43,6 @@ public class MatchEventTrigger : MonoBehaviour
 
     public void OnClicked (Button button)
     {
-        //print(button.name);
-
         string buttonCoordinate = button.GetComponentInChildren<Text>().text;
         print("Event Coordinate: " + buttonCoordinate + " Time: " + printStopwatchTime.GetComponent<Text>().text);
 
@@ -67,11 +65,11 @@ public class MatchEventTrigger : MonoBehaviour
         eventWithType.text = "(" + eventType + ") " + eventInfoText.text;
 
         eventList.Add(eventWithType.text);
+    }
 
-        /*
-        eventArray[i] = eventWithType.text;
-        i++;
-        */
+    public void printListOfAllEvents()
+    {
+        listOfEvents.text += eventWithType.text + "\n";
     }
 
     public void returnToGame()
@@ -82,9 +80,5 @@ public class MatchEventTrigger : MonoBehaviour
         matchEventUI.SetActive(false);
 
         eventList.ForEach(print);
-       /* for (int x = 0; x < eventArray.Length; x++)
-        {
-            print(eventArray[x].ToString());
-        }*/
     }
 }
