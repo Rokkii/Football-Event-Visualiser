@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\GenerateTextFile.cs" />
     <Compile Include="Assets\Scripts\MatchEventTrigger.cs" />
+    <Compile Include="Assets\Scripts\StatsTracker.cs" />
     <Compile Include="Assets\Scripts\StopwatchScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />

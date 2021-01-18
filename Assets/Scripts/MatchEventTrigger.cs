@@ -25,9 +25,10 @@ public class MatchEventTrigger : MonoBehaviour
     GameObject eventRegisteredPanel;
 
     [SerializeField]
-    GameObject viewEventsList;
+    GameObject matchDataPanel;
 
-    private string finalEventsList = "";
+    [SerializeField]
+    GameObject viewEventsList;
 
     [SerializeField]
     Text listOfEvents;
@@ -62,7 +63,7 @@ public class MatchEventTrigger : MonoBehaviour
         viewEventsList.SetActive(true);
         eventRegisteredPanel.SetActive(false);
 
-        eventWithType.text = "(" + eventType + ") " + eventInfoText.text;
+        eventWithType.text = eventType + " " + eventInfoText.text;
 
         eventList.Add(eventWithType.text);
     }
@@ -78,7 +79,7 @@ public class MatchEventTrigger : MonoBehaviour
         viewEventsList.SetActive(false);
         eventRegisteredPanel.SetActive(false);
         matchEventUI.SetActive(false);
-
+        matchDataPanel.SetActive(false);
         eventList.ForEach(print);
     }
 }

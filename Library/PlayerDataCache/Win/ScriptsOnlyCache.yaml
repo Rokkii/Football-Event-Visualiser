@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - GenerateTextFile
     - MatchEventTrigger
+    - StatsTracker
     - StopwatchScript
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -76,6 +77,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13046}
     - Class: 114
       Script: {instanceID: 13146}
+    - Class: 114
+      Script: {instanceID: 19438}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -329,7 +332,7 @@ ScriptsOnlyBuild:
     className: Benchmark01
   - hash:
       serializedVersion: 2
-      Hash: bf13200d0ccfd97ba73f0e0cadbcdb7f
+      Hash: 72028a2614f174716f0c8912843c05f3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MatchEventTrigger
@@ -735,6 +738,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: acc3386877a0b9a44e49b49b172e96f4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StatsTracker
   platform: 5
   scenePathNames:
   - Assets/Scenes/TestScene.unity
