@@ -48,37 +48,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11274}
+      Script: {instanceID: 11276}
     - Class: 114
-      Script: {instanceID: 11432}
+      Script: {instanceID: 11434}
     - Class: 114
-      Script: {instanceID: 11474}
+      Script: {instanceID: 11476}
     - Class: 114
-      Script: {instanceID: 11530}
+      Script: {instanceID: 11532}
     - Class: 114
-      Script: {instanceID: 11866}
+      Script: {instanceID: 11868}
     - Class: 114
-      Script: {instanceID: 11894}
+      Script: {instanceID: 11896}
     - Class: 114
-      Script: {instanceID: 12020}
+      Script: {instanceID: 12022}
     - Class: 114
-      Script: {instanceID: 12264}
+      Script: {instanceID: 12026}
     - Class: 114
-      Script: {instanceID: 12490}
+      Script: {instanceID: 12268}
     - Class: 114
-      Script: {instanceID: 12506}
+      Script: {instanceID: 12494}
     - Class: 114
-      Script: {instanceID: 12768}
+      Script: {instanceID: 12510}
     - Class: 114
-      Script: {instanceID: 12796}
+      Script: {instanceID: 12772}
     - Class: 114
-      Script: {instanceID: 12936}
+      Script: {instanceID: 12800}
     - Class: 114
-      Script: {instanceID: 13046}
+      Script: {instanceID: 12940}
     - Class: 114
-      Script: {instanceID: 13146}
+      Script: {instanceID: 13050}
     - Class: 114
-      Script: {instanceID: 19438}
+      Script: {instanceID: 13150}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -200,7 +200,7 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: e4a2b3802d0653e9cc8fa6f4497a347a
+      Hash: 49a63dccc1c16aa3fa72c59dc50ffb3c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GenerateTextFile
@@ -336,6 +336,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MatchEventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: acc3386877a0b9a44e49b49b172e96f4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StatsTracker
   - hash:
       serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
@@ -738,12 +744,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: acc3386877a0b9a44e49b49b172e96f4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: StatsTracker
   platform: 5
   scenePathNames:
   - Assets/Scenes/TestScene.unity
