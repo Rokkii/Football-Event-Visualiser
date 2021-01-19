@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GenerateTextFile.cs" />
+    <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\MatchEventTrigger.cs" />
     <Compile Include="Assets\Scripts\StatsTracker.cs" />
     <Compile Include="Assets\Scripts\StopwatchScript.cs" />

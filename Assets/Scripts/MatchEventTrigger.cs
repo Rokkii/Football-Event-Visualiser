@@ -33,6 +33,9 @@ public class MatchEventTrigger : MonoBehaviour
     [SerializeField]
     Text listOfEvents;
 
+    [SerializeField]
+    Text finalListOfEvents;
+
     public List<string> eventList = new List<string>();
 
     void Start()
@@ -71,6 +74,7 @@ public class MatchEventTrigger : MonoBehaviour
     public void printListOfAllEvents()
     {
         listOfEvents.text += eventWithType.text + "\n";
+        finalListOfEvents.text = listOfEvents.text;
     }
 
     public void returnToGame()

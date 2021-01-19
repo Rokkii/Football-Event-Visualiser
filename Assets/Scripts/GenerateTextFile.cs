@@ -43,6 +43,16 @@ public class GenerateTextFile : MonoBehaviour
     [SerializeField]
     Text crossesAgainstText;
 
+    // Variables for user input
+    [SerializeField]
+    Text myTeamName;
+
+    [SerializeField]
+    Text opponentsName;
+
+    [SerializeField]
+    Text matchDate;
+
     public void CreateFileOfEvents()
     {
         string path = Application.dataPath + "/MatchLog.txt";
@@ -53,7 +63,14 @@ public class GenerateTextFile : MonoBehaviour
         }
 
         // Add match events to content string
-        string content = "All Match Events:" + "\n\n" + finalEventsList.text + "\n\n";
+        string content = "Match Log\n\n";
+
+        content += "My Team:        " + myTeamName.text + "\n";
+        content += "Opponents:      " + opponentsName.text + "\n";
+        content += "Match Date:     " + matchDate.text + "\n";
+        content += "\n\n";
+
+        content += "All Match Events:" + "\n\n" + finalEventsList.text + "\n\n";
 
         // Add match data to string
         content += "Match Data:" + "\n\n";
